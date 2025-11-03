@@ -1,14 +1,15 @@
-#include <iostream>
-
+##include <iostream>
 using namespace std;
+
 int main() {
-    double a, b;
+    double a, b, c;
     cout << "Введите первое число: ";
     cin >> a;
     cout << "Введите второе число: ";
     cin >> b;
-    cout << "Сумма: " << a + b << endl;
-    cout << "Разность: " << a - b << endl;
-    cout << "Произведение: " << a * b << endl;
+    cout << "Введите третье число: ";
+    cin >> c;
+    double average = (a + b + c) / 3;
+    cout << "Среднее арифметическое: " << average << endl;
     return 0;
 }
