@@ -7,7 +7,9 @@ private:
     string name;
     int age;
     double score;
+
 public:
+
     Student() {
         name = "";
         age = 0;
@@ -42,6 +44,7 @@ public:
         cout << "Средний балл: " << score << endl;
     }
 };
+
 int main() {
     Student st("Иван", 19, 4.2);
     st.show();
