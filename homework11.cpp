@@ -27,6 +27,7 @@ int romanToInt(const string& s) {
     }
     return total;
 }
+
 int main() {
     string s;
     cout << "Введите римское число: ";
